@@ -1,4 +1,4 @@
 <div class="shoppingListContainer">
     <app-shopping-edit></app-shopping-edit>
-    <hr>   
+    <button *ngFor="let ingredient of ingredients">{{ingredient.name}} ({{ingredient.amount}})</button>
 </div>
